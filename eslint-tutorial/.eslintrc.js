@@ -11,5 +11,6 @@ module.exports = {
   rules: {
     "no-console": "error", // console.logをコードに残しておいてはいけない。
     camelcase: ["error", { properties: "never" }], // 変数名はキャメルケースにすること(プロパティ名を除く)。
+    semi: ["error", "always"],
   },
 };
