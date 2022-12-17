@@ -8,9 +8,9 @@ module.exports = {
     ecmaVersion: "latest",
     sourceType: "module",
   },
+  extends: ["airbnb-base"],
   rules: {
-    "no-console": "error", // console.logをコードに残しておいてはいけない。
-    camelcase: ["error", { properties: "never" }], // 変数名はキャメルケースにすること(プロパティ名を除く)。
-    semi: ["error", "always"],
+    "import/prefer-default-export": "off",
+    quotes: ["error", "double"],
   },
 };
