@@ -1,0 +1,7 @@
+{
+  "name": "survival_typescript",
+  "packageManager": "yarn@3.3.0",
+  "dependencies": {
+    "typescript": "^4.9.4"
+  }
+}
